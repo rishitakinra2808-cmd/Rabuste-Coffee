@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white px-8 py-12">
@@ -10,9 +12,11 @@ export default function Home() {
       </p>
 
       <div className="grid grid-cols-2 gap-6 mt-12 max-w-2xl">
-        <div className="bg-zinc-900 p-6 rounded-xl hover:bg-zinc-800 transition cursor-pointer">
+        <Link
+         href="/coffee"
+         className="bg-zinc-900 p-6 rounded-xl hover:bg-zinc-800 transition cursor-pointer">
           ☕ Discover Coffee
-        </div>
+        </Link>
 
         <div className="bg-zinc-900 p-6 rounded-xl hover:bg-zinc-800 transition cursor-pointer">
           🎨 Explore Art
