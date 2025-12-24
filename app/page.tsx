@@ -13,8 +13,9 @@ export default function Home() {
 
       <div className="grid grid-cols-2 gap-6 mt-12 max-w-2xl">
         <Link
-         href="/coffee"
-         className="bg-zinc-900 p-6 rounded-xl hover:bg-zinc-800 transition cursor-pointer">
+          href="/coffee"
+          className="bg-zinc-900 p-6 rounded-xl hover:bg-zinc-800 transition cursor-pointer"
+          >
           ☕ Discover Coffee
         </Link>
 
